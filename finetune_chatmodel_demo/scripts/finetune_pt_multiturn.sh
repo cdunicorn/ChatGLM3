@@ -21,6 +21,9 @@ OUTPUT_DIR=output/${RUN_NAME}-${DATESTR}-${PRE_SEQ_LEN}-${LR}
 
 mkdir -p $OUTPUT_DIR
 
+export NCCL_P2P_DISABLE=1
+export NCCL_IB_DISABLE=1
+
 torchrun --standalone --nnodes=1 --nproc_per_node=$NUM_GPUS finetune.py \
     --train_format multi-turn \
     --train_file $DATASET_PATH \
