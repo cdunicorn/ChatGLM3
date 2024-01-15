@@ -1,5 +1,7 @@
-[{
-		"conversations": [{
+[
+	{
+		"conversations": [
+			{
 				"role": "user",
 				"content": "What is the Reject Unit Positioning System (RUPS)?"
 			},
@@ -10,7 +12,8 @@
 		]
 	},
 	{
-		"conversations": [{
+		"conversations": [
+			{
 				"role": "user",
 				"content": "What is the purpose of the 'Manual Upload' feature in RUPS?"
 			},
@@ -21,7 +24,8 @@
 		]
 	},
 	{
-		"conversations": [{
+		"conversations": [
+			{
 				"role": "user",
 				"content": "Can all users check their order history in RUPS?"
 			},
@@ -32,7 +36,8 @@
 		]
 	},
 	{
-		"conversations": [{
+		"conversations": [
+			{
 				"role": "user",
 				"content": "What is the role of planners in the RUPS system?"
 			},
@@ -43,7 +48,8 @@
 		]
 	},
 	{
-		"conversations": [{
+		"conversations": [
+			{
 				"role": "user",
 				"content": "How does RUPS handle different types of debug requests?"
 			},
@@ -54,7 +60,8 @@
 		]
 	},
 	{
-		"conversations": [{
+		"conversations": [
+			{
 				"role": "user",
 				"content": "What is the procedure for submitting a lot split/merge request in RUPS?"
 			},
@@ -65,7 +72,8 @@
 		]
 	},
 	{
-		"conversations": [{
+		"conversations": [
+			{
 				"role": "user",
 				"content": "How does shipment management work in RUPS?"
 			},
@@ -76,7 +84,8 @@
 		]
 	},
 	{
-		"conversations": [{
+		"conversations": [
+			{
 				"role": "user",
 				"content": "What is the 'Bulk Edit' functionality in RUPS?"
 			},
@@ -95,8 +104,8 @@
 			"role": "assistant",
 			"content": "RUPS is part of a larger ecosystem of tools and systems used in manufacturing at Intel, integrating with other systems for various activities like EIMS withdrawal and shipment management."
 		}
-	]
-}, {
+	}, 
+	{
 	"conversations": [{
 			"role": "user",
 			"content": "Can the RUPS system track the physical location of units?"
