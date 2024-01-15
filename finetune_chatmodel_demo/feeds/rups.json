@@ -96,14 +96,16 @@
 		]
 	},
 	{
-		"conversations": {
-			"role": "user",
-			"content": "How does RUPS integrate with other systems for manufacturing processes?"
-		},
-		{
-			"role": "assistant",
-			"content": "RUPS is part of a larger ecosystem of tools and systems used in manufacturing at Intel, integrating with other systems for various activities like EIMS withdrawal and shipment management."
-		}
+		"conversations": [
+			{
+				"role": "user",
+				"content": "How does RUPS integrate with other systems for manufacturing processes?"
+			},
+			{
+				"role": "assistant",
+				"content": "RUPS is part of a larger ecosystem of tools and systems used in manufacturing at Intel, integrating with other systems for various activities like EIMS withdrawal and shipment management."
+			}
+		]
 	}, 
 	{
 	"conversations": [{
