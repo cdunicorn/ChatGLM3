@@ -16,7 +16,7 @@ DATESTR=`date +%Y%m%d-%H%M%S`
 RUN_NAME=rups
 
 BASE_MODEL_PATH=/home/lvchao/projects/model/chatglm3-6b
-DATASET_PATH=rups.json
+DATASET_PATH=feeds/rups.json
 OUTPUT_DIR=output/${RUN_NAME}-${DATESTR}-${PRE_SEQ_LEN}-${LR}
 
 mkdir -p $OUTPUT_DIR
