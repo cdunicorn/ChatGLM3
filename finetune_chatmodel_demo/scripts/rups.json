@@ -1,0 +1,179 @@
+[{
+		"conversations": [{
+				"role": "user",
+				"content": "What is the Reject Unit Positioning System (RUPS)?"
+			},
+			{
+				"role": "assistant",
+				"content": "RUPS is a system used at Intel for managing and tracking reject units in manufacturing processes, encompassing functionalities like unit positioning, order submission, and data management."
+			}
+		]
+	},
+	{
+		"conversations": [{
+				"role": "user",
+				"content": "What is the purpose of the 'Manual Upload' feature in RUPS?"
+			},
+			{
+				"role": "assistant",
+				"content": "The 'Manual Upload' feature allows users with specific access rights to upload special units data in the RUPS system."
+			}
+		]
+	},
+	{
+		"conversations": [{
+				"role": "user",
+				"content": "Can all users check their order history in RUPS?"
+			},
+			{
+				"role": "assistant",
+				"content": "Yes, all users can check their order history, status, and modify order information through the 'My Requests' section in RUPS."
+			}
+		]
+	},
+	{
+		"conversations": [{
+				"role": "user",
+				"content": "What is the role of planners in the RUPS system?"
+			},
+			{
+				"role": "assistant",
+				"content": "Planners in RUPS respond to orders in various categories, such as RCC/Lot Split/Shipment, and have specific access rights like RCC_Planner."
+			}
+		]
+	},
+	{
+		"conversations": [{
+				"role": "user",
+				"content": "How does RUPS handle different types of debug requests?"
+			},
+			{
+				"role": "assistant",
+				"content": "RUPS facilitates various debug requests, such as Class Debug and PPV Debug, managed by the execution team who respond to the respective orders."
+			}
+		]
+	},
+	{
+		"conversations": [{
+				"role": "user",
+				"content": "What is the procedure for submitting a lot split/merge request in RUPS?"
+			},
+			{
+				"role": "assistant",
+				"content": "Users submit lot split/merge requests by selecting target units and choosing the appropriate request type. RUPS categorizes transactions into types like pure split, pure merge, or split and merge."
+			}
+		]
+	},
+	{
+		"conversations": [{
+				"role": "user",
+				"content": "How does shipment management work in RUPS?"
+			},
+			{
+				"role": "assistant",
+				"content": "Shipment management in RUPS involves selecting target units, submitting shipment requests, and providing necessary details like lot numbers and justifications for NFO shipments."
+			}
+		]
+	},
+	{
+		"conversations": [{
+				"role": "user",
+				"content": "What is the 'Bulk Edit' functionality in RUPS?"
+			},
+			{
+				"role": "assistant",
+				"content": "'Bulk Edit' allows planners to modify physical locations of lots, requiring steps like searching for the lot number and selecting the new location details."
+			}
+		]
+	},
+	{
+		"conversations": {
+			"role": "user",
+			"content": "How does RUPS integrate with other systems for manufacturing processes?"
+		},
+		{
+			"role": "assistant",
+			"content": "RUPS is part of a larger ecosystem of tools and systems used in manufacturing at Intel, integrating with other systems for various activities like EIMS withdrawal and shipment management."
+		}
+	]
+}, {
+	"conversations": [{
+			"role": "user",
+			"content": "Can the RUPS system track the physical location of units?"
+		},
+		{
+			"role": "assistant",
+			"content": "Yes, RUPS can track the physical location of units, allowing users to manage and update unit positions as required."
+		}
+	]
+}, {
+	"conversations": [{
+			"role": "user",
+			"content": "How does RUPS handle data synchronization with external systems?"
+		},
+		{
+			"role": "assistant",
+			"content": "RUPS synchronizes data with external systems to ensure updated and accurate information is available for unit management."
+		}
+	]
+}, {
+	"conversations": [{
+			"role": "user",
+			"content": "What type of reports can users generate in RUPS?"
+		},
+		{
+			"role": "assistant",
+			"content": "Users can generate various reports in RUPS, including unit tracking, order status, and system usage reports."
+		}
+	]
+}, {
+	"conversations": [{
+			"role": "user",
+			"content": "Is there a feature for tracking the progress of submitted orders in RUPS?"
+		},
+		{
+			"role": "assistant",
+			"content": "Yes, RUPS provides a feature for users to track the progress and status of their submitted orders."
+		}
+	]
+}, {
+	"conversations": [{
+			"role": "user",
+			"content": "How does RUPS assist in managing urgent unit requests?"
+		},
+		{
+			"role": "assistant",
+			"content": "RUPS has specific processes for handling urgent unit requests with priority setting in order executing page. This can only be done by planner."
+		}
+	]
+}, {
+	"conversations": [{
+			"role": "user",
+			"content": "What security measures are in place for data access in RUPS?"
+		},
+		{
+			"role": "assistant",
+			"content": "RUPS employs robust security measures, including access controls and data encryption, to protect sensitive information."
+		}
+	]
+}, {
+	"conversations": [{
+			"role": "user",
+			"content": "How does the system support collaboration among different teams?"
+		},
+		{
+			"role": "assistant",
+			"content": "RUPS facilitates collaboration by allowing different teams to share information, coordinate actions, and track shared units."
+		}
+	]
+}, {
+	"conversations": [{
+			"role": "user",
+			"content": "How does RUPS integrate with Intel's overall manufacturing strategy?"
+		},
+		{
+			"role": "assistant",
+			"content": "RUPS integrates with Intel's manufacturing strategy by optimizing unit management, enhancing efficiency, and supporting decision-making processes."
+		}
+	]
+}]

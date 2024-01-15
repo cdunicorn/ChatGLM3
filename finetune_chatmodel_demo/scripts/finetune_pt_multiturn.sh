@@ -13,10 +13,10 @@ SAVE_INTERVAL=500
 
 AUTORESUME_FROM_CHECKPOINT=True
 DATESTR=`date +%Y%m%d-%H%M%S`
-RUN_NAME=tool_alpaca_pt
+RUN_NAME=rups
 
-BASE_MODEL_PATH=THUDM/chatglm3-6b
-DATASET_PATH=formatted_data/tool_alpaca.jsonl
+BASE_MODEL_PATH=/home/lvchao/projects/model/chatglm3-6b
+DATASET_PATH=rups.json
 OUTPUT_DIR=output/${RUN_NAME}-${DATESTR}-${PRE_SEQ_LEN}-${LR}
 
 mkdir -p $OUTPUT_DIR
