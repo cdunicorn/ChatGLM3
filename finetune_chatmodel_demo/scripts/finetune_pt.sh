@@ -16,8 +16,8 @@ AUTORESUME_FROM_CHECKPOINT=True
 DATESTR=`date +%Y%m%d-%H%M%S`
 RUN_NAME=advertise_gen_pt
 
-BASE_MODEL_PATH=THUDM/chatglm3-6b
-DATASET_PATH=formatted_data/advertise_gen.jsonl
+BASE_MODEL_PATH=/home/lvchao/projects/model/chatglm3-6b
+DATASET_PATH=feeds/rups1.json
 OUTPUT_DIR=output/${RUN_NAME}-${DATESTR}-${PRE_SEQ_LEN}-${LR}
 
 mkdir -p $OUTPUT_DIR

@@ -1,0 +1,70 @@
+[
+  {
+    "prompt": "What is the Reject Unit Positioning System (RUPS)?",
+    "response": "RUPS is a system used at Intel for managing and tracking reject units in manufacturing processes, encompassing functionalities like unit positioning, order submission, and data management."
+  },
+  {
+    "prompt": "What is the purpose of the 'Manual Upload' feature in RUPS?",
+    "response": "The 'Manual Upload' feature allows users with specific access rights to upload special units data in the RUPS system."
+  },
+  {
+    "prompt": "Can all users check their order history in RUPS?",
+    "response": "Yes, all users can check their order history, status, and modify order information through the 'My Requests' section in RUPS."
+  },
+  {
+    "prompt": "What is the role of planners in the RUPS system?",
+    "response": "Planners in RUPS respond to orders in various categories, such as RCC/Lot Split/Shipment, and have specific access rights like RCC_Planner."
+  },
+  {
+    "prompt": "How does RUPS handle different types of debug requests?",
+    "response": "RUPS facilitates various debug requests, such as Class Debug and PPV Debug, managed by the execution team who respond to the respective orders."
+  },
+  {
+    "prompt": "What is the procedure for submitting a lot split/merge request in RUPS?",
+    "response": "Users submit lot split/merge requests by selecting target units and choosing the appropriate request type. RUPS categorizes transactions into types like pure split, pure merge, or split and merge."
+  },
+  {
+    "prompt": "How does shipment management work in RUPS?",
+    "response": "Shipment management in RUPS involves selecting target units, submitting shipment requests, and providing necessary details like lot numbers and justifications for NFO shipments."
+  },
+  {
+    "prompt": "What is the 'Bulk Edit' functionality in RUPS?",
+    "response": "'Bulk Edit' allows planners to modify physical locations of lots, requiring steps like searching for the lot number and selecting the new location details."
+  },
+  {
+    "prompt": "How does RUPS integrate with other systems for manufacturing processes?",
+    "response": "RUPS is part of a larger ecosystem of tools and systems used in manufacturing at Intel, integrating with other systems for various activities like EIMS withdrawal and shipment management."
+  },
+  {
+    "prompt": "Can the RUPS system track the physical location of units?",
+    "response": "Yes, RUPS can track the physical location of units, allowing users to manage and update unit positions as required."
+  },
+  {
+    "prompt": "How does RUPS handle data synchronization with external systems?",
+    "response": "RUPS synchronizes data with external systems to ensure updated and accurate information is available for unit management."
+  },
+  {
+    "prompt": "What type of reports can users generate in RUPS?",
+    "response": "Users can generate various reports in RUPS, including unit tracking, order status, and system usage reports."
+  },
+  {
+    "prompt": "Is there a feature for tracking the progress of submitted orders in RUPS?",
+    "response": "Yes, RUPS provides a feature for users to track the progress and status of their submitted orders."
+  },
+  {
+    "prompt": "How does RUPS assist in managing urgent unit requests?",
+    "response": "RUPS has specific processes for handling urgent unit requests with priority setting in order executing page. This can only be done by planner."
+  },
+  {
+    "prompt": "What security measures are in place for data access in RUPS?",
+    "response": "RUPS employs robust security measures, including access controls and data encryption, to protect sensitive information."
+  },
+  {
+    "prompt": "How does the system support collaboration among different teams?",
+    "response": "RUPS facilitates collaboration by allowing different teams to share information, coordinate actions, and track shared units."
+  },
+  {
+    "prompt": "RUPS integrates with Intel's manufacturing strategy by optimizing unit management, enhancing efficiency, and supporting decision-making processes."
+  }
+]
+
