@@ -62,9 +62,6 @@
   {
     "prompt": "How does the system support collaboration among different teams?",
     "response": "RUPS facilitates collaboration by allowing different teams to share information, coordinate actions, and track shared units."
-  },
-  {
-    "prompt": "RUPS integrates with Intel's manufacturing strategy by optimizing unit management, enhancing efficiency, and supporting decision-making processes."
   }
 ]
 

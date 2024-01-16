@@ -4,7 +4,7 @@ set -ex
 
 PRE_SEQ_LEN=128
 LR=2e-2
-NUM_GPUS=1
+NUM_GPUS=2
 MAX_SOURCE_LEN=1024
 MAX_TARGET_LEN=128
 DEV_BATCH_SIZE=1
@@ -14,7 +14,7 @@ SAVE_INTERVAL=500
 
 AUTORESUME_FROM_CHECKPOINT=True
 DATESTR=`date +%Y%m%d-%H%M%S`
-RUN_NAME=advertise_gen_pt
+RUN_NAME=rups1
 
 BASE_MODEL_PATH=/home/lvchao/projects/model/chatglm3-6b
 DATASET_PATH=feeds/rups1.json
